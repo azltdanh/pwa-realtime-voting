@@ -1,0 +1,98 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  align-items: center;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-dark {
+  background: #463e40;
+}
+
+.algin-vertical {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.chart-container {
+  width: 75%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+canvas {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.btn-rating {
+  cursor: pointer;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  border: 1px solid #231f20;
+  max-height: 200px;
+}
+
+@media (max-width: 765px) and (orientation: portrait) {
+  .btn-rating {
+    width: 50%;
+    height: 19%;
+  }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .btn-rating {
+    width: 50%;
+    height: 19%;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-rating {
+    max-width: 200px;
+    width: 19%;
+    height: 24%;
+  }
+}
+
+@media (max-width: 992px) and (orientation: landscape) {
+  .btn-rating {
+    width: 19%;
+    height: 35%;
+  }
+}
+
+.emo1 {
+  background-color: rgb(255, 126, 0);
+  background-image: url('assets/ratings/emo1.png');
+}
+
+.emo2 {
+  background-color: rgb(255, 180, 0);
+  background-image: url('assets/ratings/emo2.png');
+}
+
+.emo3 {
+  background-color: rgb(255, 234, 0);
+  background-image: url('assets/ratings/emo3.png');
+}
+
+.emo4 {
+  background-color: rgb(189, 217, 0);
+  background-image: url('assets/ratings/emo4.png');
+}
+
+.emo5 {
+  background-color: rgb(125, 204, 0);
+  background-image: url('assets/ratings/emo5.png');
+}
